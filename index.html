@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Airbnb Host Templates</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+<style>
+
+/* Add your custom color */
+:root {
+  --airbly-pink: #ff385c;
+}
+
+/* Example usage of the custom color */
+.airbly-pink {
+  color: var(--airbly-pink);
+}
+
+/* Adding a hover effect */
+.bg-airbly-pink:hover {
+  color: #e03150; /* Slightly darker shade of your custom pink */
+}
+
+/* Adding a hover effect */
+.bg-airbly-pink2:hover {
+  background-color: #e03150; /* Slightly darker shade of your custom pink */
+}
+
+</style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+
+<!-- Navigation Bar -->
+<nav class="bg-white shadow-md fixed top-0 w-full z-10">
+  <div class="max-w-6xl mx-auto px-4">
+    <div class="flex justify-between items-center h-16">
+      <!-- Logo -->
+      <div class="text-2xl font-bold airbly-pink">
+        Airbly
+      </div>
+      <!-- Navigation Links -->
+      <div class="flex space-x-8">
+        <a href="#templates" class="text-gray-700 bg-airbly-pink text-lg font-medium">
+          Templates
+        </a>
+        <a href="#packages" class="text-gray-700 bg-airbly-pink text-lg font-medium">
+          More
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+
+<!-- Header Section -->
+<header id="header" class="h-screen bg-gray-50 flex flex-col items-center justify-center text-center px-4">
+  <div class="max-w-6xl mx-auto">
+    <!-- Main Heading -->
+    <h1 class="text-9xl sm:text-[12rem] font-bold tracking-tight leading-none">
+      <span class="airbly-pink">Air</span><span class="text-gray-800">bly</span>
+    </h1>
+    <!-- Subheading -->
+    <p class="text-5xl sm:text-6xl text-gray-700 font-medium mt-8">for Hosts</p>
+    <!-- Description -->
+    <p class="text-3xl sm:text-4xl text-gray-600 mt-12 leading-relaxed">
+     Templates for your Airbnb.<br>
+     Get closer to 4.8+★.</p> <br><br>
+    <!-- Call-to-Action Button -->
+    <a href="#templates" class="mt-8 bg-gray-800 text-white px-6 py-3 rounded-md bg-airbly-pink2 transition">
+      <b>Go from Host to SuperHost</b>
+    </a>
+  </div>
+</header>
+
+
+
+
+
+<!-- Why Choose Us Section -->
+<section id="why-choose-us" class="py-16 bg-gray-100 px-6">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-12">Why Choose Us</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+      <!-- Card 1 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card1.svg" alt="Editable Designs" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">High-Quality Templates</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Professionally designed for Airbnb hosts.
+        </p>
+      </div>
+      
+      <!-- Card 2 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card2.svg" alt="Editable Designs" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Editable Designs</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Fully customizable templates for your needs.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card3.svg" alt="Time Saving" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Save Time</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Focus on hosting, not designing.
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card4.svg" alt="Unique Branding" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Unique Branding</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Impress your guests with professional branding.
+        </p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card5.svg" alt="Guest Experience" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Enhanced Guest Experience</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Provide clear, helpful information for your guests.
+        </p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card6.svg" alt="Multiple Formats" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Available in Multiple Formats</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Suitable for Word, Google Docs, and more.
+        </p>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card7.svg" alt="Global Reach" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Trusted by Hosts Worldwide</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Join a global community of happy hosts.
+        </p>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card8.svg" alt="Affordable Pricing" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Affordable Pricing</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          Great value for professional templates.
+        </p>
+      </div>
+
+      <!-- Card 9 -->
+      <div class="card bg-white border rounded-lg shadow-md p-6 flex flex-col justify-center items-center text-center transition-transform transform hover:scale-105">
+        <img src="assets/card9.svg" alt="Support" class="w-16 h-16 mb-4">
+        <h3 class="text-lg font-semibold text-gray-800">Dedicated Support</h3>
+        <p class="text-gray-600 text-sm mt-2">
+          We're here to help whenever you need it.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Templates Section -->
+<section id="templates" class="h-screen bg-white flex flex-col justify-center items-center px-6">
+  <h2 class="text-3xl font-bold mb-6">Our Templates</h2>
+  <div class="flex gap-6 overflow-x-scroll max-w-full px-4">
+    <!-- Card 1 -->
+    <div class="flex-shrink-0 w-[90%] md:w-[70%] lg:w-[45%] bg-gray-100 shadow-md rounded-lg p-6 flex flex-col items-center">
+      <h3 class="text-2xl font-semibold mb-4">Welcome Guide</h3>
+      <p class="text-gray-600 mb-6 text-center">Everything your guests need to know, beautifully laid out.</p>
+      <div class="h-[500px] w-full bg-white rounded-lg shadow-inner flex items-center justify-center">
+        <iframe src="assets/welcome-guide.pdf" class="w-full h-full rounded-md" title="Welcome Guide Preview"></iframe>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="flex-shrink-0 w-[90%] md:w-[70%] lg:w-[45%] bg-gray-100 shadow-md rounded-lg p-6 flex flex-col items-center">
+      <h3 class="text-2xl font-semibold mb-4">House Rules</h3>
+      <p class="text-gray-600 mb-6 text-center">Set clear expectations while maintaining a friendly tone.</p>
+      <div class="h-[500px] w-full bg-white rounded-lg shadow-inner flex items-center justify-center">
+        <iframe src="assets/house-rules.pdf" class="w-full h-full rounded-md" title="House Rules Preview"></iframe>
+      </div>
+    </div>
+    <!-- Card 3 -->
+    <div class="flex-shrink-0 w-[90%] md:w-[70%] lg:w-[45%] bg-gray-100 shadow-md rounded-lg p-6 flex flex-col items-center">
+      <h3 class="text-2xl font-semibold mb-4">Local Attractions</h3>
+      <p class="text-gray-600 mb-6 text-center">Help guests explore your area with curated recommendations.</p>
+      <div class="h-[500px] w-full bg-white rounded-lg shadow-inner flex items-center justify-center">
+        <iframe src="assets/local-attractions.pdf" class="w-full h-full rounded-md" title="Local Attractions Preview"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Testimonials Section -->
+<section id="testimonials" class="h-screen bg-gray-100 flex items-center justify-center px-6 relative">
+  <div class="testimonial-container w-full max-w-4xl text-center">
+    <h2 class="text-3xl font-bold text-center mb-12">What Hosts Say About Us</h2>
+    <!-- Testimonial Image -->
+    <div class="mb-6">
+      <img 
+        id="testimonial-image" 
+        src="assets/testimonial1.jpg" 
+        alt="Testimonial Photo" 
+        class="w-full h-[300px] md:h-[400px] object-cover mx-auto rounded-lg shadow-md"
+      />
+    </div>
+    <!-- Testimonial Content -->
+    <div id="testimonial" class="text-xl md:text-2xl font-bold text-gray-800 mb-4">
+      "These templates saved me so much time and look amazing!"
+    </div>
+    <!-- Host Name and Location -->
+    <p id="host-info" class="text-lg text-gray-600">
+      - Alex, Superhost in New York
+    </p>
+  </div>
+
+  <!-- Navigation Buttons -->
+  <button id="prev" 
+    class="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-800 text-8xl font-bold hover:text-gray-600 transition">
+    &#8249; <!-- Left arrow symbol -->
+  </button>
+  <button id="next" 
+    class="absolute right-4 top-1/2 transform -translate-y-1/2 text-gray-800 text-8xl font-bold hover:text-gray-600 transition">
+    &#8250; <!-- Right arrow symbol -->
+  </button>
+</section>
+
+
+
+
+
+
+<!-- Packages Section -->
+<section id="packages" class="py-16 bg-white flex flex-col items-center justify-center">
+  <!-- Section Title -->
+  <div class="text-center mb-12">
+    <h2 class="text-4xl font-bold text-gray-800">Choose Your Template Package</h2>
+    <p class="text-lg text-gray-600 mt-4 max-w-3xl">
+      Select the package that best suits your needs or share your ideas for custom templates. Upgrade your hosting experience today!
+    </p>
+  </div>
+  
+  <!-- Cards -->
+  <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl w-full px-6">
+    
+    <!-- Essential Package Card -->
+    <div class="bg-gray-100 border border-gray-300 rounded-lg shadow-md p-8 flex flex-col items-center text-center hover:shadow-lg transition-shadow">
+      <h3 class="text-2xl font-bold text-gray-800 mb-6">Essential Package</h3>
+      <ul class="mb-6 space-y-4 text-left">
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> Welcome Guide Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> House Rules Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> Welcome Guide Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> House Rules Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-red-500 text-2xl mr-2">☓</span> Custom Design Options
+        </li>
+        <li class="flex items-center">
+          <span class="text-red-500 text-2xl mr-2">☓</span> Local Recommendations Template
+        </li>
+      </ul>
+      <div class="mb-4">
+        <span class="text-2xl text-gray-400 line-through mr-2">$49</span>
+        <span class="text-3xl font-bold airbly-pink">$29</span>
+      </div>
+      <a 
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdERKJSWU6PmiFHdZXE12wmH8vwOnvlJHjdFJQyos2ddycK-A/viewform" 
+        target="_blank"
+        class="bg-gray-800 text-white px-6 py-3 rounded-md bg-airbly-pink2 transition">
+        Select Essential Package ↗
+      </a>
+    </div>
+    
+    <!-- Premium Package Card -->
+    <div class="bg-gray-100 border border-gray-300 rounded-lg shadow-md p-8 flex flex-col items-center text-center hover:shadow-lg transition-shadow">
+      <h3 class="text-2xl font-bold text-gray-800 mb-6">Premium Package</h3>
+      <ul class="mb-6 space-y-4 text-left">
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> Welcome Guide Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> House Rules Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> Welcome Guide Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> House Rules Template
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> Custom Design Options
+        </li>
+        <li class="flex items-center">
+          <span class="text-green-500 text-2xl mr-2">✓</span> Local Recommendations Template
+        </li>
+      </ul>
+      <div class="mb-4">
+        <span class="text-2xl text-gray-400 line-through mr-2">$79</span>
+        <span class="text-3xl font-bold airbly-pink">$59</span>
+      </div>
+      <a 
+        href="https://docs.google.com/forms/d/e/1FAIpQLSdERKJSWU6PmiFHdZXE12wmH8vwOnvlJHjdFJQyos2ddycK-A/viewform" 
+        target="_blank"
+        class="bg-gray-800 text-white px-6 py-3 rounded-md bg-airbly-pink2 transition">
+        Select Premium Package ↗
+      </a>
+    </div>
+    
+    <!-- Suggest Template/Custom Template Card -->
+    <div class="bg-gray-100 border border-gray-300 rounded-lg shadow-md p-8 flex flex-col items-center text-center hover:shadow-lg transition-shadow">
+      <h3 class="text-2xl font-bold text-gray-800 mb-6">Suggest a template?</h3>
+      <p class="text-gray-600 text-center mb-6">
+        Share your ideas with us, and we’ll work on adding them to our collection. Your feedback helps us grow!
+      </p>
+      <div class="flex flex-col space-y-4">
+        <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdERKJSWU6PmiFHdZXE12wmH8vwOnvlJHjdFJQyos2ddycK-A/viewform" 
+          target="_blank"
+          class="bg-gray-800 text-white px-6 py-3 rounded-md bg-airbly-pink2 transition">
+          Suggest a Template ↗
+        </a>
+     <br>
+      <h3 class="text-2xl font-bold text-gray-800 mb-6">Custom template?</h3>
+      <p class="text-gray-600 text-center mb-6">
+        Need something tailored for your Airbnb? Let us create a personalized template just for you!
+      </p>
+        <a 
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdWbbRBAv-c4lYmaJD6C0W5VqtBMssuDtjCpr5tSsntyctZRQ/viewform" 
+          target="_blank"
+          class="bg-gray-800 text-white px-6 py-3 rounded-md bg-airbly-pink2 transition">
+          Request Custom Template ↗
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  
+  <!-- FAQ Section -->
+<section id="faq" class="bg-gray-100 py-16 px-6">
+  <div class="max-w-4xl mx-auto">
+    <h2 class="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+    <div class="space-y-4">
+      <!-- FAQ Item 1 -->
+      <div class="faq-item border rounded-lg shadow-sm">
+        <button class="faq-question w-full text-left p-4 font-semibold text-gray-800 hover:bg-gray-200 focus:outline-none">
+          What is included in the templates?
+        </button>
+        <div class="faq-answer hidden p-4 text-gray-600">
+          Our templates include customizable designs for welcome guides, house manuals, and local attraction guides, making it easy to enhance your guest's experience.
+        </div>
+      </div>
+
+      <!-- FAQ Item 2 -->
+      <div class="faq-item border rounded-lg shadow-sm">
+        <button class="faq-question w-full text-left p-4 font-semibold text-gray-800 hover:bg-gray-200 focus:outline-none">
+          Are the templates editable?
+        </button>
+        <div class="faq-answer hidden p-4 text-gray-600">
+          Yes! All templates are fully editable using popular software like Microsoft Word, Google Docs, or Canva.
+        </div>
+      </div>
+
+      <!-- FAQ Item 3 -->
+      <div class="faq-item border rounded-lg shadow-sm">
+        <button class="faq-question w-full text-left p-4 font-semibold text-gray-800 hover:bg-gray-200 focus:outline-none">
+          Can I use these templates for multiple properties?
+        </button>
+        <div class="faq-answer hidden p-4 text-gray-600">
+          Absolutely! You can use the templates for as many properties as you manage.
+        </div>
+      </div>
+
+      <!-- FAQ Item 4 -->
+      <div class="faq-item border rounded-lg shadow-sm">
+        <button class="faq-question w-full text-left p-4 font-semibold text-gray-800 hover:bg-gray-200 focus:outline-none">
+          Do I need design experience to use these templates?
+        </button>
+        <div class="faq-answer hidden p-4 text-gray-600">
+          No design experience is needed. The templates are easy to use, and we provide clear instructions to help you customize them.
+        </div>
+      </div>
+
+      <!-- FAQ Item 5 -->
+      <div class="faq-item border rounded-lg shadow-sm">
+        <button class="faq-question w-full text-left p-4 font-semibold text-gray-800 hover:bg-gray-200 focus:outline-none">
+          Are there any refunds available?
+        </button>
+        <div class="faq-answer hidden p-4 text-gray-600">
+          Due to the digital nature of our products, we do not offer refunds. However, feel free to reach out if you encounter any issues, and we’ll be happy to help.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Footer Section -->
+<footer class="bg-white py-8">
+  <div class="max-w-6xl mx-auto px-4">
+    <!-- Links Section -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 mb-8">
+      <!-- Support Column -->
+      <div>
+        <h3 class="text-lg font-semibold text-gray-700 mb-4">Support</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-gray-600 bg-airbly-pink">Help Center</a></li>
+        </ul>
+      </div>
+      <!-- Hosting Column -->
+      <div>
+        <h3 class="text-lg font-semibold text-gray-700 mb-4">Hosting</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-gray-600 bg-airbly-pink">Hosting Resources</a></li>
+        </ul>
+      </div>
+      <!-- Community Column -->
+      <div>
+        <h3 class="text-lg font-semibold text-gray-700 mb-4">Community</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-gray-600 bg-airbly-pink">Diversity & Belonging</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Copyright Section -->
+    <div class="border-t border-gray-300 pt-4 text-center">
+      <p class="text-gray-500 text-sm">
+        © 2024 Airbnb, Inc. · <a href="#" class="bg-airbly-pink">Terms</a> · <a href="#" class="bg-airbly-pink">Privacy</a>
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+<!-- Testimonials Script Section -->
+<script>
+  const testimonials = [
+    {
+      text: "These templates saved me so much time and look amazing!",
+      host: "Alex, Superhost in New York",
+      image: "assets/testimonial1.jpg"
+    },
+    {
+      text: "My guests keep mentioning how helpful the welcome guide is.",
+      host: "Maria, Host in Barcelona",
+      image: "assets/testimonial2.jpg"
+    },
+    {
+      text: "Using these templates improved my reviews instantly!",
+      host: "Chris, Superhost in Sydney",
+      image: "assets/testimonial3.jpg"
+    },
+    {
+      text: "The local attractions template helped my guests explore with ease!",
+      host: "Sophia, Host in Paris",
+      image: "assets/testimonial4.jpg"
+    }
+  ];
+
+  let currentIndex = 0;
+
+  const testimonialElement = document.getElementById('testimonial');
+  const hostInfoElement = document.getElementById('host-info');
+  const testimonialImage = document.getElementById('testimonial-image');
+  const prevButton = document.getElementById('prev');
+  const nextButton = document.getElementById('next');
+
+  function updateTestimonial() {
+    const { text, host, image } = testimonials[currentIndex];
+    testimonialElement.textContent = `"${text}"`;
+    hostInfoElement.textContent = `- ${host}`;
+    testimonialImage.src = image;
+  }
+
+  prevButton.addEventListener('click', () => {
+    currentIndex = (currentIndex > 0) ? currentIndex - 1 : testimonials.length - 1;
+    updateTestimonial();
+  });
+
+  nextButton.addEventListener('click', () => {
+    currentIndex = (currentIndex < testimonials.length - 1) ? currentIndex + 1 : 0;
+    updateTestimonial();
+  });
+
+  // Initial display
+  updateTestimonial();
+</script>
+
+
+<!-- Faq Script Section -->
+<script>
+  const faqItems = document.querySelectorAll('.faq-item');
+
+  faqItems.forEach(item => {
+    const question = item.querySelector('.faq-question');
+    const answer = item.querySelector('.faq-answer');
+
+    question.addEventListener('click', () => {
+      // Close other open answers
+      faqItems.forEach(otherItem => {
+        if (otherItem !== item) {
+          otherItem.querySelector('.faq-answer').classList.add('hidden');
+        }
+      });
+
+      // Toggle the clicked answer
+      answer.classList.toggle('hidden');
+    });
+  });
+</script>
+
+</body>
+</html>
